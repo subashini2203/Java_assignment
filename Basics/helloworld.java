@@ -1,7 +1,4 @@
-public class helloworld {
-    public void wolrd(){
-         
-    }
+public class HelloWorld {
     
    public static void main(String[] args){
     System.out.println("Hello,world!");
