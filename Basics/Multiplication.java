@@ -5,8 +5,8 @@ public class Multiplication {
         int number=scan.nextInt();
         System.out.println("multiplication table of "+number+":");
         for(int i=1;i<=10;i++){
-            int result=number*i;
-            System.out.println(number+"x"+i+"="+result);
+          
+            System.out.println(number+"x"+i+"="+number*i);
         }
         
 

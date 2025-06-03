@@ -9,7 +9,7 @@ public class SumOfDigits {
         int sum = 0; 
         while (number != 0) {
             int digit = number % 10;    
-            sum = sum + digit;          
+             sum = sum + digit;          
             number = number / 10;       
         }
 
