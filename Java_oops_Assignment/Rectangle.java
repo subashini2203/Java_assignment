@@ -14,8 +14,7 @@ public class Rectangle {
  public double calculatearea(){
     double area=width*length;
     return area;
-
- }
+}
 
 public static void main(String[] args){
 
@@ -24,16 +23,11 @@ public static void main(String[] args){
     double r1area1=r1.calculatearea();
     System.out.println("Area of rectangle r1: " + r1area1);
 
-    
-
-
-
     Rectangle r=new Rectangle(5,10);
    
     double rarea=r.calculatearea();
     System.out.println("Area of rectangle r:"+ rarea);
 
-    
 }
 
 }
