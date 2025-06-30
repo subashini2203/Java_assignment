@@ -10,7 +10,8 @@ public class Foo {
             //  calling foo method
             foo();
         }catch(Exception e){
-            System.out.println("Exception caught:"+e.getMessage());
+            
+            System.out.println("Exception caught:"+e.getMessage()); // Catching the exception thrown by foo method
         }
 
         }

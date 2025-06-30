@@ -1,4 +1,3 @@
-package ExceptionHandling;
 import java.util.Scanner;
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
@@ -19,7 +18,7 @@ public class Custom {
         catch(InvalidAgeException e){
             System.out.println("Custom Exception: " + e);
         }
-        catch(Exception e){
+        catch(Throwable e){
             System.out.println("An error occurred: " + e);
         }
        

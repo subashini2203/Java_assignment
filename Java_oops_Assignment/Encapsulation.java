@@ -1,10 +1,12 @@
  class BankAccount{
     private String accountNumber;
     private double balance;
+    BankAccount(String accno){
+        accountNumber=accno;;
 
-public void setAccountNumber(String accNo){
-    accountNumber=accNo;
-}
+    }
+ 
+
 public String getAccountNumber(){
     return accountNumber;
 }
@@ -14,11 +16,12 @@ public void setBalance(double bal){
 public double getBalance(){
     return balance;
 }
+ }
 
 public class Encapsulation {
     public static void main(String[] args){
-        BankAccount account=new BankAccount();
-        account.setAccountNumber("Ac123456");
+        BankAccount account=new BankAccount("Ac12346");
+       
         account.setBalance(5000.75);
         System.out.println("accountnumber:"+account.getAccountNumber());
         System.out.println("balance:"+account.getBalance());
@@ -26,5 +29,4 @@ public class Encapsulation {
 
     }
     
-}
 }

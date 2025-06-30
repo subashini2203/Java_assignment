@@ -17,8 +17,11 @@ public class Polymorphism {
     public static void main(String[] args){
         shape c=new circle();
         shape s=new square();
+       
         c.draw();
         s.draw();
+         s=new shape();
+         s.draw();
     }
     
 }

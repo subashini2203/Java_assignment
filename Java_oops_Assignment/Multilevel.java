@@ -19,6 +19,13 @@ public class Multilevel {
         obj.bark();
         obj.walk();
         obj.eat();
+        Mammal obj1=new Mammal();
+        obj1.walk();
+        obj1.eat();
+        Animal obj2=new Animal();
+        obj2.eat();
+
+
     }
     
 }
